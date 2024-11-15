@@ -1,0 +1,72 @@
+<!--Carousel-->
+<div id="carousel_principal" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+            <div class="imagen-container">
+                <img class="d-block w-100 imagen" src="/images/slide1.jpg" alt="" />
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+            <div class="imagen-container">
+                <img class="d-block w-100 imagen" src="/images/slide7.jpg" alt="" />
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+            <div class="imagen-container">
+                <img class="d-block w-100 imagen" src="/images/slide6.jpg" alt="" />
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+            <div class="imagen-container">
+                <img class="d-block w-100 imagen" src="/images/slide8.jpg" alt="" />
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+            <div class="imagen-container">
+                <img class="d-block w-100 imagen" src="/images/slide9.jpg" alt="" />
+                <div class="overlay"></div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <a class="carousel-control-prev" role="button" data-bs-slide="prev" href="#carousel_principal"
+            aria-controls="carousel" aria-label="Anterior">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </a>
+
+        <a class="carousel-control-next" role="button" data-bs-slide="next" href="#carousel_principal"
+            aria-controls="carousel" aria-label="Siguiente">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </a>
+    </div>
+
+    <div class="carousel-indicators indicators">
+        <button type="button" class="active" data-bs-target="#carousel_principal" data-bs-slide-to="0"
+            area-label="Slide 1"></button>
+        <button type="button" class="" data-bs-target="#carousel_principal" data-bs-slide-to="1"
+            area-label="Slide 2"></button>
+        <button type="button" class="" data-bs-target="#carousel_principal" data-bs-slide-to="2"
+            area-label="Slide 3"></button>
+        <button type="button" class="" data-bs-target="#carousel_principal" data-bs-slide-to="3"
+            area-label="Slide 4"></button>
+        <button type="button" class="" data-bs-target="#carousel_principal" data-bs-slide-to="4"
+            area-label="Slide 5"></button>
+    </div>
+</div>
+<!--Titulo-->
+<div>
+    <img class="image" src="/images/cis-central-inventory-sistem1.png" alt="">
+</div>
+<!--Botón comenzar-->
+<div>
+    <button type="button" class="btn" (click)="login()">{{comenzar}}</button>
+
+    <a class="copy">{{ copy }} <br> {{ version }}</a>
+</div>
