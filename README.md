@@ -1,2 +1,2 @@
 # CIS_APPv1
-Central Inventory System
+Central Inventory System - CIS
