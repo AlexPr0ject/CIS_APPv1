@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
+import { LoginComponent } from '../login/login.component';
 
 @Component({
   selector: 'app-index',
   standalone: true,
-  imports: [],
+  imports: [LoginComponent],
   templateUrl: './index.component.html',
   styleUrl: './index.component.scss'
 })
@@ -23,7 +24,4 @@ export class IndexComponent {
     this.version = 'Versión 1.0.0.241111';
    }
 
-   login() {
-    this.router.navigate(['/cis/login'])
-   }
 }

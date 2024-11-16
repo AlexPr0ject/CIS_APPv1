@@ -66,6 +66,7 @@
 </div>
 <!--Botón comenzar-->
 <div>
-    <button type="button" class="btn" (click)="login()">{{comenzar}}</button>
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">{{comenzar}}</button>
+    <app-login></app-login>
     <a class="copy">{{ copy }} <br> {{ version }}</a>
 </div>
