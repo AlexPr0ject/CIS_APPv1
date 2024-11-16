@@ -24,6 +24,6 @@ export class IndexComponent {
    }
 
    login() {
-    this.router.navigate(['/authentication/login'])
+    this.router.navigate(['/cis/login'])
    }
 }
